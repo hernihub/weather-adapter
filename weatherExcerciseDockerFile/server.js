@@ -30,7 +30,7 @@ var service = {
 
 // xml data is extracted from wsdl file created
 var xml = require('fs').readFileSync('./wsdl/global-weather.wsdl','utf8');
-//console.log('xml unescaped: ', xml);
+
 
 //create an express server and pass it to a soap server
 var server = app.listen(8080,function(){
