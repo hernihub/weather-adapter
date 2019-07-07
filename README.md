@@ -1,18 +1,19 @@
-Weather service REST adapter
+# Weather service REST adapter
+### This is the REST adapter for the Global Weather SOAP-based web-service for the Deloitte test previous to the interview: it includes the technical specification document, Node code and Mule code.
 
-instructions to run the project:
+Instructions to run the project:
 
 1.	NODE
-  a.	Clone the aforementioned repository
-  b.	Go to weatherExcerciseDockerFile folder and run npm install
-  c.	Got to weatherExcerciseDockerFile folder and execute build the docker image and run it as a container or, simply run node server.js to start the Weather SOAP WS
+  * Clone the aforementioned repository
+  *	Go to weatherExcerciseDockerFile folder and run npm install
+  *	Got to weatherExcerciseDockerFile folder and execute build the docker image and run it as a container or, simply run node server.js to start the Weather SOAP WS
 2.	MULE EE RUNTIME
-  a.	Go to https://www.mulesoft.com/lp/dl/mule-esb-enterprise and download Mule ESB enterprise 4.2.0
-  b.	Unzip the downloaded file to create the folder
+  *	Go to https://www.mulesoft.com/lp/dl/mule-esb-enterprise and download Mule ESB enterprise 4.2.0
+  *	Unzip the downloaded file to create the folder
  
 3.	MULE APPLICATION
-  a.	Go to weather-rest-adapter/target folder and copy the JAR file weather-rest-adapter.jar into the app folder of the Mule Enterprise Standalone folder unzipped in the previous step	 
-  b.	Be sure to have JRE or JDK 8 installed
+  *	Go to weather-rest-adapter/target folder and copy the JAR file weather-rest-adapter.jar into the app folder of the Mule Enterprise Standalone folder unzipped in the previous step	 
+  *	Be sure to have JRE or JDK 8 installed
 c.	Go to /bin Mule standalone subfolder and run mule.sh in Linux or mule.bat in Windows
 
 
