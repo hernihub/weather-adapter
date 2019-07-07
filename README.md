@@ -14,14 +14,12 @@ Instructions to run the project:
 3.	MULE APPLICATION
   *	Go to weather-rest-adapter/target folder and copy the JAR file weather-rest-adapter.jar into the app folder of the Mule Enterprise Standalone folder unzipped in the previous step	 
   *	Be sure to have JRE or JDK 8 installed
-c.	Go to /bin Mule standalone subfolder and run mule.sh in Linux or mule.bat in Windows
-
-
+  *	Go to /bin Mule standalone subfolder and run mule.sh in Linux or mule.bat in Windows
 
 4.	THE API
-  *	Open postman or simply go to Firefox and navigate to these URLs
-      http://localhost:8081/weather-api/v1/weather/city/Melbourne
-      http://localhost:8081/weather-api/v1/airports/Australia
+  *	Open postman or simply go to Firefox and navigate to these URLs:
+   * http://localhost:8081/weather-api/v1/weather/city/Melbourne
+   * http://localhost:8081/weather-api/v1/airports/Australia
 
 5.	THE EXCEPTIONS
   *	If the name of the city or of the country is missing, a HTTP 404 status code with the following message will print the resource is not found or the parameter is missing
