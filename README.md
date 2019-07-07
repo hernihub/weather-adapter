@@ -1,5 +1,5 @@
 # Weather service REST adapter
-### This is the REST adapter for the Global Weather SOAP-based web-service for the Deloitte test previous to the interview: it includes the technical specification document, Node code and Mule code.
+### This is the REST adapter for the Global Weather SOAP-based web-service for the Deloitte recruitment process previous to the interview: it includes the technical specification document, Node code and Mule code.
 
 Instructions to run the project:
 
@@ -18,8 +18,9 @@ Instructions to run the project:
 
 4.	THE API
   *	Open postman or simply go to Firefox and navigate to these URLs:
-   * http://localhost:8081/weather-api/v1/weather/city/Melbourne
-   * http://localhost:8081/weather-api/v1/airports/Australia
+  
+       http://localhost:8081/weather-api/v1/weather/city/Melbourne  
+       http://localhost:8081/weather-api/v1/airports/Australia  
 
 5.	THE EXCEPTIONS
   *	If the name of the city or of the country is missing, a HTTP 404 status code with the following message will print the resource is not found or the parameter is missing
