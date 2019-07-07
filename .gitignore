@@ -3,3 +3,4 @@
 .tooling-apps-cache
 .dockerignore
 node_modules
+.gitignore
